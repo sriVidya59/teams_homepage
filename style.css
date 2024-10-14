@@ -23,6 +23,7 @@ ul {
     font-size: 12px;
     text-align: center;
     padding-bottom: 2px;
+    
   }
   
   li a {
@@ -67,9 +68,7 @@ ul {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
     text-align: center;
-    background: #8e9eab;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(224, 70, 255, 0.142), rgba(98, 119, 255, 0.142));
     
 
 
@@ -81,17 +80,28 @@ ul {
   }
   #card_txt{
 font-size: 14px;
-text-align: left;
+text-align: center;
+background-color: #beb7b7;
+width: 110px;
+padding: 5px 0px;
+margin-left: 40px;
+border-radius: 5px;
+
   }
-  select{
-    width: 80px;
+  .fa-phone{
+    width: 20px;
+    padding-right: 5px;
+  }
+  button{
+    width: 90px;
     height: 25px;
     background-color: red;
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 5px;
-    padding-top: 2px;
+    padding-top: 5px;
     padding-left: 5px;
     margin-top: 8px;
     color: white;
+    border: none;
   }
